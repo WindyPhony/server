@@ -585,39 +585,45 @@ guard time is not part of this specification and shall not be assumed without
 cycle-level verification.
 
 ## 9. Frame operating sequence
-
-```mermaid
 sequenceDiagram
-  participant H as Host
-  participant E as h265enc_top
-  participant M as External memory
-  participant S as Payload sink
+    participant H as Host
+    participant ENC as h265enc_top
+    participant MEM as External Memory
+    participant BS as Bitstream Sink
 
-  H->>E: Assert rstn=0
-  H->>E: Deassert rstn after clock is stable
-  H->>E: Drive stable frame, RC, skip, and IME configuration
-  H->>E: Pulse sys_start_i for one clock
-  par Service external transactions
-    loop Each external transaction
-      E->>M: extif_start_o plus descriptor
-      alt Load
-        M->>E: extif_wren_i plus extif_data_i beats
-      else Store
-        M->>E: extif_rden_i; sample extif_data_o beats
-      end
-      M->>E: Pulse extif_done_i
+    H->>ENC: Assert rstn = 0
+    H->>ENC: Release rstn
+    H->>ENC: Configure encoder registers
+    H->>ENC: Pulse sys_start_i
+
+    Note over ENC: Encode frame CTU-by-CTU
+
+    loop Memory transactions
+        ENC->>MEM: extif_start_o + address + command
+
+        alt LOAD (Original / Reference)
+            MEM-->>ENC: extif_wren_i + extif_data_i
+        else STORE (Reconstructed / Filtered)
+            ENC-->>MEM: extif_data_o
+            MEM-->>ENC: extif_rden_i
+        end
+
+        MEM-->>ENC: extif_done_i
     end
-  and Capture payload continuously
-    loop Whenever bs_val_o is high
-      E->>S: bs_val_o plus bs_dat_o
+
+    par Bitstream output
+        loop Whenever bs_val_o = 1
+            ENC-->>BS: bs_dat_o
+        end
+    and Internal processing
+        Note over ENC: Prediction → TQ → Reconstruction → DBF → SAO → CABAC
     end
-  end
-  E->>H: Pulse sys_done_o
-  opt Bit packer still draining
-    E->>S: Additional bs_val_o plus bs_dat_o
-  end
-  Note over H,S: Internal slice_done_o is not exposed by h265enc_top
-```
+
+    ENC-->>H: sys_done_o = 1
+
+    opt Flush remaining bytes
+        ENC-->>BS: Final bs_dat_o
+    end
 
 Integration requirements:
 
