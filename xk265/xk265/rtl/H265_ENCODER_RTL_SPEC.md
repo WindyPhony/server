@@ -585,6 +585,8 @@ guard time is not part of this specification and shall not be assumed without
 cycle-level verification.
 
 ## 9. Frame operating sequence
+
+```mermaid
 sequenceDiagram
     participant H as Host
     participant ENC as h265enc_top
@@ -624,7 +626,7 @@ sequenceDiagram
     opt Flush remaining bytes
         ENC-->>BS: Final bs_dat_o
     end
-
+```
 Integration requirements:
 
 1. Reset all frame and memory-service state before the first frame.
