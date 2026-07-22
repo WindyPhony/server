@@ -1015,7 +1015,10 @@ module `TB_NAME ;
 
       if (`USE_HW_DPB != 0 && frame_encoded) begin
         for ( pxl_cnt = 0 ; pxl_cnt < `FRAME_WIDTH*`FRAME_HEIGHT*3/2 ; pxl_cnt = pxl_cnt + 1 ) begin 
-          ext_ref_yuv[pxl_cnt] = ext_rec_yuv[pxl_cnt] ;
+          if (^ext_rec_yuv[pxl_cnt] !== 1'bx)
+            ext_ref_yuv[pxl_cnt] = ext_rec_yuv[pxl_cnt] ;
+          else
+            ext_ref_yuv[pxl_cnt] = `PIXEL_WIDTH'd128 ;
         end // for pxl_cnt
         hw_ref_valid = 1;
       end

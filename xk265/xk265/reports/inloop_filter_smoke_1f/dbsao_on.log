@@ -1,0 +1,108 @@
+# vsim -c -l /home/userdata/k69D/phongpx_69d/projects/xk265/xk265/reports/inloop_filter_smoke_1f/dbsao_on.log "+nospecify" work.tb_enc_top -do "run -all; quit -f" 
+# Start time: 17:48:05 on Jul 13,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb_enc_top(fast)
+# run -all
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf0.buf_pre_0.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf0.buf_pre_1.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf0.buf_pre_2.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf0.buf_pre_3.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf1.buf_pre_0.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf1.buf_pre_1.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf1.buf_pre_2.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf1.buf_pre_3.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf2.buf_pre_0.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf2.buf_pre_1.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf2.buf_pre_2.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf2.buf_pre_3.sram_tp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_posi_top_buf.u_posi_top.posi_memory_wrapper.ram_sp_240x32.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_posi_top_buf.u_posi_top.posi_memory_wrapper.ram_sp_256x32.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_posi_top_buf.u_posi_top.posi_memory_wrapper.ram_sp_1024x32.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_ime_top_buf.u_ime_top.ime_ver_mem.vertical_memory.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_0.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_0.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_0.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_0.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_1.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_1.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_1.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_1.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_intra_top.u_intra_buf_wrapper.m_buf_row.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_intra_top.u_intra_buf_wrapper.m_buf_col.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_intra_top.u_intra_buf_wrapper.m_buf_fra.sram_sp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_pre.m_buf_pre_0.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_pre.m_buf_pre_1.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_pre.m_buf_pre_2.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_pre.m_buf_pre_3.sram_tp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_a.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_a.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_a.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_a.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_b.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_b.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_b.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_b.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_c.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_c.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_c.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_c.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_a.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_a.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_a.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_a.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_b.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_b.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_b.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_b.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_mvd.ram_sp_be_64x23_a.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_mvd.ram_sp_be_64x23_b.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_mvd.ram_sp_be_64x23_c.sram_sp_be_behave
+# 	at      100, Frame Number =  0, mb_x_first =  0, mb_y_first =  0
+# INLOOP_FRAME_START frame=0 type=0 dbsao=1 cycle=11
+# 	 at      120, starting INTRA ENCODING frame( 0) ...
+# 	at     2905, Frame Number =  0, mb_x_first =  1, mb_y_first =  0
+# 	at    29965, Frame Number =  0, mb_x_first =  2, mb_y_first =  0
+# 	at    57025, Frame Number =  0, mb_x_first =  0, mb_y_first =  1
+# 	at   156035, Frame Number =  0, mb_x_first =  1, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=0 lcu_y=0 rec_done_count=1 cycle=15605
+# 	at   272425, Frame Number =  0, mb_x_first =  2, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=1 lcu_y=0 rec_done_count=2 cycle=27244
+# 	at   374005, Frame Number =  0, mb_x_first =  0, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=2 lcu_y=0 rec_done_count=3 cycle=37402
+# 	at   483285, Frame Number =  0, mb_x_first =  1, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=0 lcu_y=1 rec_done_count=4 cycle=48330
+# 	at   614585, Frame Number =  0, mb_x_first =  2, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=1 lcu_y=1 rec_done_count=5 cycle=61460
+# 	at   730085, Frame Number =  0, mb_x_first =  0, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=2 lcu_y=1 rec_done_count=6 cycle=73010
+# 	at   859015, Frame Number =  0, mb_x_first =  1, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=0 lcu_y=2 rec_done_count=7 cycle=85903
+# 	at   989525, Frame Number =  0, mb_x_first =  2, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=1 lcu_y=2 rec_done_count=8 cycle=98954
+# 	at  1120825, Frame Number =  0, mb_x_first =  0, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=2 lcu_y=2 rec_done_count=9 cycle=112084
+# 	at  1138735, Frame Number =  0, mb_x_first =  1, mb_y_first =  1
+#  done 
+# RD_RESULT frame=0 qp=20 dbsao=1 bits=33968 psnr=29.440994 mse=73.957281
+# INLOOP_FRAME_RESULT frame=0 type=0 dbsao=1 rec_done=9 db_start=9 db_done=9 db_modified_cycles=5842 sao_nonzero_cycles=6655 fetch_writes=3996 store_writes=3648 load_ref_words=0 ime_ref_reads=0 fme_ref_reads=0 mc_ref_reads=0 rec_sum=3942807 ref_sum=0 rec_known=37174 ref_known=0 rec_ref_match=0
+# 	at  1151365, Frame Number =  0, mb_x_first =  2, mb_y_first =  1
+# 	at  1151375, Frame Number =  0, mb_x_first =  0, mb_y_first =  0
+# ** Note: $finish    : ./tb_enc_top.v(1025)
+#    Time: 1151455 ns  Iteration: 0  Instance: /tb_enc_top
+# End time: 17:48:26 on Jul 13,2026, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

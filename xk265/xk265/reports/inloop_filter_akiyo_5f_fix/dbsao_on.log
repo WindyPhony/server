@@ -1,0 +1,228 @@
+# vsim -c -l /home/userdata/k69D/phongpx_69d/projects/xk265/xk265/reports/inloop_filter_akiyo_5f_fix/dbsao_on.log "+nospecify" work.tb_enc_top -do "run -all; quit -f" 
+# Start time: 22:37:39 on Jul 13,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 2024.2 linux_x86_64 May 20 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb_enc_top(fast)
+# run -all
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf0.buf_pre_0.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf0.buf_pre_1.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf0.buf_pre_2.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf0.buf_pre_3.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf1.buf_pre_0.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf1.buf_pre_1.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf1.buf_pre_2.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf1.buf_pre_3.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf2.buf_pre_0.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf2.buf_pre_1.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf2.buf_pre_2.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_fetch_top.u_db.u_db_buf2.buf_pre_3.sram_tp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_posi_top_buf.u_posi_top.posi_memory_wrapper.ram_sp_240x32.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_posi_top_buf.u_posi_top.posi_memory_wrapper.ram_sp_256x32.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_posi_top_buf.u_posi_top.posi_memory_wrapper.ram_sp_1024x32.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_ime_top_buf.u_ime_top.ime_ver_mem.vertical_memory.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_0.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_0.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_0.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_0.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_1.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_1.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_1.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_fme_top_buf.fme_rec_mem_1.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_intra_top.u_intra_buf_wrapper.m_buf_row.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_intra_top.u_intra_buf_wrapper.m_buf_col.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_intra_top.u_intra_buf_wrapper.m_buf_fra.sram_sp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_pre.m_buf_pre_0.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_pre.m_buf_pre_1.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_pre.m_buf_pre_2.sram_tp_be_behave
+# 	 calling sram_tp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_pre.m_buf_pre_3.sram_tp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_a.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_a.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_a.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_a.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_b.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_b.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_b.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_b.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_c.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_c.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_c.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_cef_rot.u_buf_cef_c.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_a.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_a.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_a.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_a.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_b.m_buf_cef_0.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_b.m_buf_cef_1.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_b.m_buf_cef_2.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_rec.u_buf_rec_b.m_buf_cef_3.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_mvd.ram_sp_be_64x23_a.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_mvd.ram_sp_be_64x23_b.sram_sp_be_behave
+# 	 calling sram_sp_be_behave @tb_enc_top.u_enc_top.u_enc_core.u_rec_top.u_rec_buf_wrapper.u_buf_mvd.ram_sp_be_64x23_c.sram_sp_be_behave
+# 	at      100, Frame Number =  0, mb_x_first =  0, mb_y_first =  0
+# INLOOP_FRAME_START frame=0 type=0 dbsao=1 cycle=11
+# 	 at      120, starting INTRA ENCODING frame( 0) ...
+# 	at     2905, Frame Number =  0, mb_x_first =  1, mb_y_first =  0
+# 	at    29965, Frame Number =  0, mb_x_first =  2, mb_y_first =  0
+# 	at    57025, Frame Number =  0, mb_x_first =  0, mb_y_first =  1
+# 	at   156035, Frame Number =  0, mb_x_first =  1, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=0 lcu_y=0 rec_done_count=1 cycle=15605
+# 	at   272425, Frame Number =  0, mb_x_first =  2, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=1 lcu_y=0 rec_done_count=2 cycle=27244
+# 	at   374005, Frame Number =  0, mb_x_first =  0, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=2 lcu_y=0 rec_done_count=3 cycle=37402
+# 	at   483285, Frame Number =  0, mb_x_first =  1, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=0 lcu_y=1 rec_done_count=4 cycle=48330
+# 	at   614585, Frame Number =  0, mb_x_first =  2, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=1 lcu_y=1 rec_done_count=5 cycle=61460
+# 	at   730085, Frame Number =  0, mb_x_first =  0, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=2 lcu_y=1 rec_done_count=6 cycle=73010
+# 	at   859015, Frame Number =  0, mb_x_first =  1, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=0 lcu_y=2 rec_done_count=7 cycle=85903
+# 	at   989525, Frame Number =  0, mb_x_first =  2, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=1 lcu_y=2 rec_done_count=8 cycle=98954
+# 	at  1120825, Frame Number =  0, mb_x_first =  0, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=0 lcu_x=2 lcu_y=2 rec_done_count=9 cycle=112084
+# 	at  1138735, Frame Number =  0, mb_x_first =  1, mb_y_first =  1
+#  done 
+# RD_RESULT frame=0 qp=20 dbsao=1 bits=33968 psnr=29.440994 mse=73.957281
+# INLOOP_FRAME_RESULT frame=0 type=0 dbsao=1 rec_done=9 db_start=9 db_done=9 db_modified_cycles=5842 sao_nonzero_cycles=6655 fetch_writes=3996 store_writes=3648 load_ref_words=0 ime_ref_reads=0 fme_ref_reads=0 mc_ref_reads=0 rec_sum=3942807 ref_sum=0 rec_known=37174 ref_known=0 rec_ref_match=0
+# 	at  1151365, Frame Number =  0, mb_x_first =  2, mb_y_first =  1
+# 	at  1151375, Frame Number =  0, mb_x_first =  0, mb_y_first =  0
+# 	at  1151455, Frame Number =  1, mb_x_first =  0, mb_y_first =  0
+# INLOOP_FRAME_START frame=1 type=1 dbsao=1 cycle=115146
+# 	 at  1151470, starting INTER ENCODING frame( 1) ...
+# 	at  1164605, Frame Number =  1, mb_x_first =  1, mb_y_first =  0
+# 	at  1191665, Frame Number =  1, mb_x_first =  2, mb_y_first =  0
+# 	at  1235715, Frame Number =  1, mb_x_first =  0, mb_y_first =  1
+# 	at  1288895, Frame Number =  1, mb_x_first =  1, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=0 lcu_y=0 rec_done_count=1 cycle=128891
+# 	at  1338515, Frame Number =  1, mb_x_first =  2, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=1 lcu_y=0 rec_done_count=2 cycle=133853
+# 	at  1393515, Frame Number =  1, mb_x_first =  0, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=2 lcu_y=0 rec_done_count=3 cycle=139353
+# 	at  1450275, Frame Number =  1, mb_x_first =  1, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=0 lcu_y=1 rec_done_count=4 cycle=145029
+# 	at  1510915, Frame Number =  1, mb_x_first =  2, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=1 lcu_y=1 rec_done_count=5 cycle=151093
+# 	at  1559195, Frame Number =  1, mb_x_first =  0, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=2 lcu_y=1 rec_done_count=6 cycle=155921
+# 	at  1628375, Frame Number =  1, mb_x_first =  1, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=0 lcu_y=2 rec_done_count=7 cycle=162839
+# 	at  1695195, Frame Number =  1, mb_x_first =  2, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=1 lcu_y=2 rec_done_count=8 cycle=169521
+# 	at  1762315, Frame Number =  1, mb_x_first =  0, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=1 lcu_x=2 lcu_y=2 rec_done_count=9 cycle=176233
+# 	at  1776925, Frame Number =  1, mb_x_first =  1, mb_y_first =  1
+#  done 
+# RD_RESULT frame=1 qp=20 dbsao=1 bits=14440 psnr=30.629089 mse=56.256339
+# INLOOP_FRAME_RESULT frame=1 type=1 dbsao=1 rec_done=9 db_start=9 db_done=9 db_modified_cycles=610 sao_nonzero_cycles=7025 fetch_writes=3996 store_writes=3648 load_ref_words=7680 ime_ref_reads=16535 fme_ref_reads=36864 mc_ref_reads=5466 rec_sum=3982338 ref_sum=4050583 rec_known=37460 ref_known=38016 rec_ref_match=16796
+# 	at  1785825, Frame Number =  1, mb_x_first =  2, mb_y_first =  1
+# 	at  1785835, Frame Number =  1, mb_x_first =  0, mb_y_first =  0
+# 	at  1785915, Frame Number =  2, mb_x_first =  0, mb_y_first =  0
+# INLOOP_FRAME_START frame=2 type=1 dbsao=1 cycle=178592
+# 	 at  1785930, starting INTER ENCODING frame( 2) ...
+# 	at  1799065, Frame Number =  2, mb_x_first =  1, mb_y_first =  0
+# 	at  1826125, Frame Number =  2, mb_x_first =  2, mb_y_first =  0
+# 	at  1870175, Frame Number =  2, mb_x_first =  0, mb_y_first =  1
+# 	at  1923055, Frame Number =  2, mb_x_first =  1, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=0 lcu_y=0 rec_done_count=1 cycle=192307
+# 	at  1970435, Frame Number =  2, mb_x_first =  2, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=1 lcu_y=0 rec_done_count=2 cycle=197045
+# 	at  2024955, Frame Number =  2, mb_x_first =  0, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=2 lcu_y=0 rec_done_count=3 cycle=202497
+# 	at  2075055, Frame Number =  2, mb_x_first =  1, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=0 lcu_y=1 rec_done_count=4 cycle=207507
+# 	at  2131335, Frame Number =  2, mb_x_first =  2, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=1 lcu_y=1 rec_done_count=5 cycle=213135
+# 	at  2183975, Frame Number =  2, mb_x_first =  0, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=2 lcu_y=1 rec_done_count=6 cycle=218399
+# 	at  2251275, Frame Number =  2, mb_x_first =  1, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=0 lcu_y=2 rec_done_count=7 cycle=225129
+# 	at  2315615, Frame Number =  2, mb_x_first =  2, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=1 lcu_y=2 rec_done_count=8 cycle=231563
+# 	at  2382675, Frame Number =  2, mb_x_first =  0, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=2 lcu_x=2 lcu_y=2 rec_done_count=9 cycle=238269
+# 	at  2397175, Frame Number =  2, mb_x_first =  1, mb_y_first =  1
+#  done 
+# RD_RESULT frame=2 qp=20 dbsao=1 bits=11464 psnr=30.616440 mse=56.420428
+# INLOOP_FRAME_RESULT frame=2 type=1 dbsao=1 rec_done=9 db_start=9 db_done=9 db_modified_cycles=611 sao_nonzero_cycles=7059 fetch_writes=3996 store_writes=3648 load_ref_words=7680 ime_ref_reads=16535 fme_ref_reads=36864 mc_ref_reads=5364 rec_sum=3982714 ref_sum=4053506 rec_known=37460 ref_known=38016 rec_ref_match=19018
+# 	at  2406075, Frame Number =  2, mb_x_first =  2, mb_y_first =  1
+# 	at  2406085, Frame Number =  2, mb_x_first =  0, mb_y_first =  0
+# 	at  2406165, Frame Number =  3, mb_x_first =  0, mb_y_first =  0
+# INLOOP_FRAME_START frame=3 type=1 dbsao=1 cycle=240617
+# 	 at  2406180, starting INTER ENCODING frame( 3) ...
+# 	at  2419315, Frame Number =  3, mb_x_first =  1, mb_y_first =  0
+# 	at  2446375, Frame Number =  3, mb_x_first =  2, mb_y_first =  0
+# 	at  2490445, Frame Number =  3, mb_x_first =  0, mb_y_first =  1
+# 	at  2543025, Frame Number =  3, mb_x_first =  1, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=0 lcu_y=0 rec_done_count=1 cycle=254304
+# 	at  2594705, Frame Number =  3, mb_x_first =  2, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=1 lcu_y=0 rec_done_count=2 cycle=259472
+# 	at  2647105, Frame Number =  3, mb_x_first =  0, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=2 lcu_y=0 rec_done_count=3 cycle=264712
+# 	at  2699265, Frame Number =  3, mb_x_first =  1, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=0 lcu_y=1 rec_done_count=4 cycle=269928
+# 	at  2753425, Frame Number =  3, mb_x_first =  2, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=1 lcu_y=1 rec_done_count=5 cycle=275344
+# 	at  2805945, Frame Number =  3, mb_x_first =  0, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=2 lcu_y=1 rec_done_count=6 cycle=280596
+# 	at  2875365, Frame Number =  3, mb_x_first =  1, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=0 lcu_y=2 rec_done_count=7 cycle=287538
+# 	at  2937525, Frame Number =  3, mb_x_first =  2, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=1 lcu_y=2 rec_done_count=8 cycle=293754
+# 	at  3004525, Frame Number =  3, mb_x_first =  0, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=3 lcu_x=2 lcu_y=2 rec_done_count=9 cycle=300454
+# 	at  3019025, Frame Number =  3, mb_x_first =  1, mb_y_first =  1
+#  done 
+# RD_RESULT frame=3 qp=20 dbsao=1 bits=11768 psnr=30.246686 mse=61.434422
+# INLOOP_FRAME_RESULT frame=3 type=1 dbsao=1 rec_done=9 db_start=9 db_done=9 db_modified_cycles=584 sao_nonzero_cycles=7008 fetch_writes=3996 store_writes=3648 load_ref_words=7680 ime_ref_reads=16535 fme_ref_reads=36864 mc_ref_reads=5304 rec_sum=3981849 ref_sum=4053882 rec_known=37460 ref_known=38016 rec_ref_match=19550
+# 	at  3027925, Frame Number =  3, mb_x_first =  2, mb_y_first =  1
+# 	at  3027935, Frame Number =  3, mb_x_first =  0, mb_y_first =  0
+# 	at  3028015, Frame Number =  4, mb_x_first =  0, mb_y_first =  0
+# INLOOP_FRAME_START frame=4 type=1 dbsao=1 cycle=302802
+# 	 at  3028030, starting INTER ENCODING frame( 4) ...
+# 	at  3041165, Frame Number =  4, mb_x_first =  1, mb_y_first =  0
+# 	at  3068225, Frame Number =  4, mb_x_first =  2, mb_y_first =  0
+# 	at  3112295, Frame Number =  4, mb_x_first =  0, mb_y_first =  1
+# 	at  3164815, Frame Number =  4, mb_x_first =  1, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=0 lcu_y=0 rec_done_count=1 cycle=316483
+# 	at  3221215, Frame Number =  4, mb_x_first =  2, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=1 lcu_y=0 rec_done_count=2 cycle=322123
+# 	at  3273615, Frame Number =  4, mb_x_first =  0, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=2 lcu_y=0 rec_done_count=3 cycle=327363
+# 	at  3319175, Frame Number =  4, mb_x_first =  1, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=0 lcu_y=1 rec_done_count=4 cycle=331919
+# 	at  3371275, Frame Number =  4, mb_x_first =  2, mb_y_first =  2
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=1 lcu_y=1 rec_done_count=5 cycle=337129
+# 	at  3419315, Frame Number =  4, mb_x_first =  0, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=2 lcu_y=1 rec_done_count=6 cycle=341933
+# 	at  3488555, Frame Number =  4, mb_x_first =  1, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=0 lcu_y=2 rec_done_count=7 cycle=348857
+# 	at  3550775, Frame Number =  4, mb_x_first =  2, mb_y_first =  0
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=1 lcu_y=2 rec_done_count=8 cycle=355079
+# 	at  3615535, Frame Number =  4, mb_x_first =  0, mb_y_first =  1
+# INLOOP_DB_AFTER_REC frame=4 lcu_x=2 lcu_y=2 rec_done_count=9 cycle=361555
+# 	at  3630035, Frame Number =  4, mb_x_first =  1, mb_y_first =  1
+#  done 
+# RD_RESULT frame=4 qp=20 dbsao=1 bits=13464 psnr=30.619902 mse=56.375473
+# INLOOP_FRAME_RESULT frame=4 type=1 dbsao=1 rec_done=9 db_start=9 db_done=9 db_modified_cycles=586 sao_nonzero_cycles=7024 fetch_writes=3996 store_writes=3648 load_ref_words=7680 ime_ref_reads=16535 fme_ref_reads=36864 mc_ref_reads=5310 rec_sum=3982229 ref_sum=4053017 rec_known=37460 ref_known=38016 rec_ref_match=19197
+# 	at  3638935, Frame Number =  4, mb_x_first =  2, mb_y_first =  1
+# 	at  3638945, Frame Number =  4, mb_x_first =  0, mb_y_first =  0
+# ** Note: $finish    : ./tb_enc_top.v(1028)
+#    Time: 3639025 ns  Iteration: 0  Instance: /tb_enc_top
+# End time: 22:38:47 on Jul 13,2026, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0
